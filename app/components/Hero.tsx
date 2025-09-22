@@ -53,8 +53,7 @@ export default function Hero() {
           </div>
           
           <p className="text-xl text-gray-300 dark:text-gray-400 mb-12 max-w-2xl leading-relaxed">
-            I’m a Python Django Full Stack Developer from Attingal, Kerala. Passionate about building efficient backends and beautiful UIs that 
-            solve real-world problems with elegant code.
+            
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
