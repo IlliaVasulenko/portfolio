@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function Hero() {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ['Python Full Stack Developer', 'UI/UX Enthusiast', 'Creative Problem Solver'];
+  const roles = ['Senior Full Stack & AI Developer', 'Senior Full Stack Developer', 'AI Developer', 'Creative Problem Solver'];
 
   useEffect(() => {
     const interval = setInterval(() => {
