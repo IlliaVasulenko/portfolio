@@ -1,21 +1,21 @@
+"use client";
 
-'use client';
-
-import { useEffect, useState } from 'react';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Edu from './components/Edu';
-import Contact from './components/Contact';
-import Navigation from './components/Navigation';
+import { useEffect, useState } from "react";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Edu from "./components/Edu";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Navigation from "./components/Navigation";
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState('hero');
+  const [activeSection, setActiveSection] = useState("hero");
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'skills', 'projects', 'contact'];
+      const sections = ["hero", "about", "skills", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -32,8 +32,8 @@ export default function Home() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -44,6 +44,7 @@ export default function Home() {
       <Skills />
       <Edu />
       <Projects />
+      <Education />
       <Contact />
     </div>
   );
