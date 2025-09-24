@@ -43,8 +43,8 @@ export default function Home() {
       <About />
       <Skills />
       <Edu />
-      <Projects />
       <Education />
+      <Projects />
       <Contact />
     </div>
   );
