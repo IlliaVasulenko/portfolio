@@ -27,3 +27,17 @@ export const education = [
     degree: "CBSE(X), Science with Computer Application",
   },
 ];
+
+export const skillsData = [
+  { name: "HTML", icon: "/assets/skills/html.svg" },
+  { name: "CSS", icon: "/assets/skills/css.svg" },
+  { name: "Javascript", icon: "/assets/skills/javascript.svg" },
+  { name: "Typescript", icon: "/assets/skills/typescript.svg" },
+  { name: "React", icon: "/assets/skills/react.svg" },
+  { name: "Next JS", icon: "/assets/skills/nextJS.svg" },
+  { name: "Tailwind", icon: "/assets/skills/tailwind.svg" },
+  { name: "MongoDB", icon: "/assets/skills/mongoDB.svg" },
+  { name: "MySQL", icon: "/assets/skills/mysql.svg" },
+  { name: "PostgreSQL", icon: "/assets/skills/postgresql.svg" },
+  { name: "Git", icon: "/assets/skills/git.svg" },
+];

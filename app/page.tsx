@@ -9,6 +9,7 @@ import Edu from "./components/Edu";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Navigation from "./components/Navigation";
+import Stacks from "./components/Stacks";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -37,11 +38,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900">
       <Navigation activeSection={activeSection} />
       <Hero />
       <About />
-      <Skills />
+      <Stacks />
+      {/* <Skills /> */}
       <Edu />
       <Projects />
       <Education />
