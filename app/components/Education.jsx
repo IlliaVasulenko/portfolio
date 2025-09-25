@@ -20,7 +20,7 @@ const Education = () => {
       {/* Education Timeline */}
       <div className="relative">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 h-full [background:repeating-linear-gradient(to_bottom,#6366f1,#ec4899,#6366f1)]"></div>
 
         {/* Education Entries */}
         {education.map((edu, index) => (
