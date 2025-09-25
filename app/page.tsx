@@ -42,11 +42,10 @@ export default function Home() {
       <Navigation activeSection={activeSection} />
       <Hero />
       <About />
-      <Stacks />
-      {/* <Skills /> */}
-      <Edu />
-      <Projects />
       <Education />
+      <Stacks />
+      <Projects />
+      {/* <Skills /> */}
       <Contact />
     </div>
   );
