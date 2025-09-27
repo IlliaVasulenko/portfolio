@@ -44,7 +44,6 @@ export default function Home() {
       <Education />
       <Stacks />
       <Projects />
-      {/* <Skills /> */}
       <Contact />
     </div>
   );
