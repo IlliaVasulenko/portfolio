@@ -23,7 +23,7 @@ export default function About() {
             </h2>
             <div className="space-y-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
-                I'm <strong>Illia Vasulenko</strong>,
+                I'm <strong>Darren Flores</strong>,
                 I am a Senior Full Stack & AI Developer with 5+ years of experience and a passion for building scalable, innovative, and high-performance web applications. 
               </p>
               <p>
