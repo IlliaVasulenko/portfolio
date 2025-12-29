@@ -40,19 +40,19 @@ export default function Contact() {
     {
       icon: 'ri-mail-line',
       title: 'Email',
-      value: 'vasulenko.illia@gmail.com',
-      href: 'vasulenko.illia@gmail.com',
+      value: 'DarrenFlores275@hotmail.com',
+      href: 'DarrenFlores275@hotmail.com',
     },
     {
       icon: 'ri-phone-line',
       title: 'Phone',
-      value: '+380 951 874 899',
-      href: 'tel:+380951874899',
+      value: '+1 609 481 0758',
+      href: 'tel:+1 609 481 0758',
     },
     {
       icon: 'ri-map-pin-line',
       title: 'Location',
-      value: 'Kiyv, Ukraine',
+      value: 'Los Angeles County, California, United States',
       href: '#',
     },
   ];
